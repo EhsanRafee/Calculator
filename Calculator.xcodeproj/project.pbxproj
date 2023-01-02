@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01131A1D2901585900CCBE18 /* BillCalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01131A1C2901585900CCBE18 /* BillCalculatorController.swift */; };
+		01131A2529015B2000CCBE18 /* GradeCalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01131A2429015B2000CCBE18 /* GradeCalculatorController.swift */; };
+		017F8C0B294AF8B1003894C7 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017F8C0A294AF8B1003894C7 /* CalculatorViewController.swift */; };
 		01979E7C290111610007C9E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01979E7B290111610007C9E5 /* AppDelegate.swift */; };
 		01979E7E290111610007C9E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01979E7D290111610007C9E5 /* SceneDelegate.swift */; };
 		01979E80290111610007C9E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01979E7F290111610007C9E5 /* ViewController.swift */; };
@@ -15,6 +18,12 @@
 		01979E88290111620007C9E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01979E86290111620007C9E5 /* LaunchScreen.storyboard */; };
 		01979E93290111620007C9E5 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01979E92290111620007C9E5 /* CalculatorTests.swift */; };
 		01979E9E290111620007C9E5 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01979E9D290111620007C9E5 /* CalculatorUITests.swift */; };
+		01979EAF290112FE0007C9E5 /* gpaviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01979EAE290112FE0007C9E5 /* gpaviewcontroller.swift */; };
+		01AF9BE0294C249600EB94EC /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF9BDF294C249600EB94EC /* UserInfo.swift */; };
+		01AF9BE5294C2D0D00EB94EC /* APIWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF9BE4294C2D0D00EB94EC /* APIWrapper.swift */; };
+		01AFA3E229012D07004A63E9 /* salaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AFA3E129012D07004A63E9 /* salaryViewController.swift */; };
+		01CAF92A2954349A0035FA68 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CAF9292954349A0035FA68 /* Customer.swift */; };
+		01CAF92F2954352B0035FA68 /* CustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CAF92E2954352B0035FA68 /* CustomerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01131A1C2901585900CCBE18 /* BillCalculatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCalculatorController.swift; sourceTree = "<group>"; };
+		01131A2429015B2000CCBE18 /* GradeCalculatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeCalculatorController.swift; sourceTree = "<group>"; };
+		017F8C0A294AF8B1003894C7 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		01979E78290111610007C9E5 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01979E7B290111610007C9E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01979E7D290111610007C9E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,12 @@
 		01979E99290111620007C9E5 /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01979E9D290111620007C9E5 /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		01979E9F290111620007C9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01979EAE290112FE0007C9E5 /* gpaviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gpaviewcontroller.swift; sourceTree = "<group>"; };
+		01AF9BDF294C249600EB94EC /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		01AF9BE4294C2D0D00EB94EC /* APIWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIWrapper.swift; path = ../../../../../Downloads/APIWrapper.swift; sourceTree = "<group>"; };
+		01AFA3E129012D07004A63E9 /* salaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = salaryViewController.swift; sourceTree = "<group>"; };
+		01CAF9292954349A0035FA68 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		01CAF92E2954352B0035FA68 /* CustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +97,9 @@
 		01979E6F290111610007C9E5 = {
 			isa = PBXGroup;
 			children = (
+				01AF9BCC294C20AA00EB94EC /* API */,
+				01AF9BCD294C20B300EB94EC /* Controller */,
+				01AF9BCE294C20BB00EB94EC /* Main */,
 				01979E7A290111610007C9E5 /* Calculator */,
 				01979E91290111620007C9E5 /* CalculatorTests */,
 				01979E9C290111620007C9E5 /* CalculatorUITests */,
@@ -101,8 +122,6 @@
 			children = (
 				01979E7B290111610007C9E5 /* AppDelegate.swift */,
 				01979E7D290111610007C9E5 /* SceneDelegate.swift */,
-				01979E7F290111610007C9E5 /* ViewController.swift */,
-				01979E81290111610007C9E5 /* Main.storyboard */,
 				01979E84290111620007C9E5 /* Assets.xcassets */,
 				01979E86290111620007C9E5 /* LaunchScreen.storyboard */,
 				01979E89290111620007C9E5 /* Info.plist */,
@@ -126,6 +145,38 @@
 				01979E9F290111620007C9E5 /* Info.plist */,
 			);
 			path = CalculatorUITests;
+			sourceTree = "<group>";
+		};
+		01AF9BCC294C20AA00EB94EC /* API */ = {
+			isa = PBXGroup;
+			children = (
+				01AF9BE4294C2D0D00EB94EC /* APIWrapper.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		01AF9BCD294C20B300EB94EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				017F8C0A294AF8B1003894C7 /* CalculatorViewController.swift */,
+				01979EAE290112FE0007C9E5 /* gpaviewcontroller.swift */,
+				01131A1C2901585900CCBE18 /* BillCalculatorController.swift */,
+				01979E7F290111610007C9E5 /* ViewController.swift */,
+				01131A2429015B2000CCBE18 /* GradeCalculatorController.swift */,
+				01AFA3E129012D07004A63E9 /* salaryViewController.swift */,
+				01AF9BDF294C249600EB94EC /* UserInfo.swift */,
+				01CAF9292954349A0035FA68 /* Customer.swift */,
+				01CAF92E2954352B0035FA68 /* CustomerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		01AF9BCE294C20BB00EB94EC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				01979E81290111610007C9E5 /* Main.storyboard */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +309,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01CAF92F2954352B0035FA68 /* CustomerViewController.swift in Sources */,
+				01131A1D2901585900CCBE18 /* BillCalculatorController.swift in Sources */,
+				01131A2529015B2000CCBE18 /* GradeCalculatorController.swift in Sources */,
+				017F8C0B294AF8B1003894C7 /* CalculatorViewController.swift in Sources */,
 				01979E80290111610007C9E5 /* ViewController.swift in Sources */,
+				01979EAF290112FE0007C9E5 /* gpaviewcontroller.swift in Sources */,
 				01979E7C290111610007C9E5 /* AppDelegate.swift in Sources */,
+				01AF9BE5294C2D0D00EB94EC /* APIWrapper.swift in Sources */,
+				01CAF92A2954349A0035FA68 /* Customer.swift in Sources */,
+				01AFA3E229012D07004A63E9 /* salaryViewController.swift in Sources */,
+				01AF9BE0294C249600EB94EC /* UserInfo.swift in Sources */,
 				01979E7E290111610007C9E5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
